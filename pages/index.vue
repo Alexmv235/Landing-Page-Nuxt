@@ -211,7 +211,7 @@
           <span class="home-text11 Card-Text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero.
-            <span v-html="rawfatm"></span>
+            <span v-html="raw5ldn"></span>
           </span>
           <span class="Anchor">Learn more</span>
         </div>
@@ -220,7 +220,7 @@
           <span class="home-text13 Card-Text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero.
-            <span v-html="raw1tax"></span>
+            <span v-html="raw1w2j"></span>
           </span>
           <span class="Anchor">Learn more</span>
         </div>
@@ -229,7 +229,7 @@
           <span class="home-text15 Card-Text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero.
-            <span v-html="rawyhlf"></span>
+            <span v-html="rawt372"></span>
           </span>
           <span class="Anchor">Learn more</span>
         </div>
@@ -601,9 +601,9 @@ export default {
   name: 'Home',
   data() {
     return {
-      rawfatm: ' ',
-      raw1tax: ' ',
-      rawyhlf: ' ',
+      raw5ldn: ' ',
+      raw1w2j: ' ',
+      rawt372: ' ',
     }
   },
   head: {
