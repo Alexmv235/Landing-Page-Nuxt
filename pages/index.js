@@ -24,9 +24,7 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-links-container">
-                <a href="#resources" className="home-link Anchor">
-                  Resources
-                </a>
+                <span className="home-link Anchor">Resources</span>
                 <a href="#inspiration" className="home-link01 Anchor">
                   Inspiration
                 </a>
@@ -39,7 +37,9 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-right-side">
-              <button className="home-cta-btn Anchor button">START NOW</button>
+              <button className="home-cta-btn button">
+                ACCESO INSITUCIONAL
+              </button>
             </div>
             <div data-role="MobileMenu" className="home-mobile-menu">
               <div className="home-container1">
@@ -55,9 +55,7 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-links-container1">
-                <a href="#resources" className="home-link04 Anchor">
-                  Resources
-                </a>
+                <span className="home-link04 Anchor">Resources</span>
                 <a href="#inspiration" className="home-link05 Anchor">
                   Inspiration
                 </a>
@@ -71,28 +69,61 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div id="resources" className="home-hero">
-          <div className="home-content-container">
-            <div className="home-hero-text">
-              <h1 className="home-heading Section-Heading">
-                Tell the whole world about your ideea
-              </h1>
-              <span className="home-text Section-Text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
-                ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-                Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per
-                inceptos himenaeos.
+        <div className="home-hero">
+          <div className="home-container2">
+            <h1 className="home-text">Keep it simple</h1>
+            <span className="home-text01">
+              <span>
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  non volutpat turpis.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
               </span>
-              <button className="home-cta-btn1 Anchor button">START NOW</button>
-            </div>
+              <br></br>
+              <span></span>
+              <span>
+                <span>
+                  Mauris luctus rutrum mi ut rhoncus. Integer in dignissim
+                  tortor.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+              </span>
+            </span>
+            <button className="home-button button">Get Started</button>
           </div>
+          <img
+            alt="image"
+            src="/273001092_5528531597173932_328111233627269514_n-1500h.jpg"
+            loading="lazy"
+            className="home-image2"
+          />
         </div>
         <div id="inspiration" className="home-features">
           <div className="home-heading-container">
-            <h2 className="home-text01 Section-Heading">
+            <h2 className="home-text10 Section-Heading">
               Which are the greatest things about it?
             </h2>
           </div>
@@ -105,8 +136,8 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container">
-                <span className="home-heading01 Card-Heading">Feature One</span>
-                <span className="home-text02 Card-Text">
+                <span className="home-heading Card-Heading">Feature One</span>
+                <span className="home-text11 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -121,8 +152,8 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container1">
-                <span className="home-heading02 Card-Heading">Feature Two</span>
-                <span className="home-text03 Card-Text">
+                <span className="home-heading1 Card-Heading">Feature Two</span>
+                <span className="home-text12 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -137,10 +168,10 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container2">
-                <span className="home-heading03 Card-Heading">
+                <span className="home-heading2 Card-Heading">
                   Feature Three
                 </span>
-                <span className="home-text04 Card-Text">
+                <span className="home-text13 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -155,10 +186,8 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container3">
-                <span className="home-heading04 Card-Heading">
-                  Feature Four
-                </span>
-                <span className="home-text05 Card-Text">
+                <span className="home-heading3 Card-Heading">Feature Four</span>
+                <span className="home-text14 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -173,10 +202,8 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container4">
-                <span className="home-heading05 Card-Heading">
-                  Feature Five
-                </span>
-                <span className="home-text06 Card-Text">
+                <span className="home-heading4 Card-Heading">Feature Five</span>
+                <span className="home-text15 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -191,8 +218,8 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container5">
-                <span className="home-heading06 Card-Heading">Feature Six</span>
-                <span className="home-text07 Card-Text">
+                <span className="home-heading5 Card-Heading">Feature Six</span>
+                <span className="home-text16 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -203,18 +230,18 @@ const Home = (props) => {
         </div>
         <div id="process" className="home-services">
           <div className="home-heading-container1">
-            <h1 className="home-text08 Section-Heading">
+            <h1 className="home-text17 Section-Heading">
               More things to explore
             </h1>
-            <span className="home-text09 Section-Text">
+            <span className="home-text18 Section-Text">
               Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
             </span>
           </div>
           <div className="home-cards-container1">
             <div className="home-service-card">
-              <h3 className="home-text10 Card-Heading">Resources</h3>
-              <span className="home-text11 Card-Text">
+              <h3 className="home-text19 Card-Heading">Resources</h3>
+              <span className="home-text20 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero.
                 <span
@@ -226,8 +253,8 @@ const Home = (props) => {
               <span className="Anchor">Learn more</span>
             </div>
             <div className="home-service-card1">
-              <h3 className="home-text12 Card-Heading">Community</h3>
-              <span className="home-text13 Card-Text">
+              <h3 className="home-text21 Card-Heading">Community</h3>
+              <span className="home-text22 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero.
                 <span
@@ -239,8 +266,8 @@ const Home = (props) => {
               <span className="Anchor">Learn more</span>
             </div>
             <div className="home-service-card2">
-              <h3 className="home-text14 Card-Heading">Newsroom</h3>
-              <span className="home-text15 Card-Text">
+              <h3 className="home-text23 Card-Heading">Newsroom</h3>
+              <span className="home-text24 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero.
                 <span
@@ -256,8 +283,8 @@ const Home = (props) => {
         <div className="home-section-separator"></div>
         <div className="home-team">
           <div className="home-heading-container2">
-            <h1 className="home-text16 Section-Heading">Meet the Team</h1>
-            <span className="home-text17 Section-Text">
+            <h1 className="home-text25 Section-Heading">Meet the Team</h1>
+            <span className="home-text26 Section-Text">
               Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
             </span>
@@ -313,8 +340,8 @@ const Home = (props) => {
         <div className="home-section-separator1"></div>
         <div id="ourstory" className="home-our-story">
           <div className="home-heading-container3">
-            <h1 className="home-text18 Section-Heading">Our story</h1>
-            <span className="home-text19 Section-Text">
+            <h1 className="home-text27 Section-Heading">Our story</h1>
+            <span className="home-text28 Section-Text">
               Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
             </span>
@@ -329,12 +356,12 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <div className="home-content-container1">
-                <span className="home-heading07 Card-Heading">
+              <div className="home-content-container">
+                <span className="home-heading6 Card-Heading">
                   This text is the name of the article. Lorem ipsum dolor sit
                   metsed do eiusm od tempor.
                 </span>
-                <span className="home-text20 Card-Text">
+                <span className="home-text29 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -343,7 +370,7 @@ const Home = (props) => {
                   nulla. Class aptent taciti sociosqu ad litora torquent per
                   conubia nostra, per inceptos himenaeos.
                 </span>
-                <span className="home-text21 Card-Text">
+                <span className="home-text30 Card-Text">
                   {' '}
                   Fusce nec tellus sed augue semper porta. Mauris massa.
                   Vestibulum lacinia arcu eget nulla. Class aptent taciti
@@ -375,10 +402,10 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="https://play.teleporthq.io/static/svg/default-img.svg"
-                  className="home-image2"
+                  className="home-image3"
                 />
-                <div className="home-content-container2">
-                  <span className="home-text24 SmallCard-Heading">
+                <div className="home-content-container1">
+                  <span className="home-text33 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -406,10 +433,10 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="https://play.teleporthq.io/static/svg/default-img.svg"
-                  className="home-image3"
+                  className="home-image4"
                 />
-                <div className="home-content-container3">
-                  <span className="home-text27 SmallCard-Heading">
+                <div className="home-content-container2">
+                  <span className="home-text36 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -437,10 +464,10 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="https://play.teleporthq.io/static/svg/default-img.svg"
-                  className="home-image4"
+                  className="home-image5"
                 />
-                <div className="home-content-container4">
-                  <span className="home-text30 SmallCard-Heading">
+                <div className="home-content-container3">
+                  <span className="home-text39 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -468,10 +495,10 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="https://play.teleporthq.io/static/svg/default-img.svg"
-                  className="home-image5"
+                  className="home-image6"
                 />
-                <div className="home-content-container5">
-                  <span className="home-text33 SmallCard-Heading">
+                <div className="home-content-container4">
+                  <span className="home-text42 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -500,10 +527,10 @@ const Home = (props) => {
         </div>
         <div className="home-section-separator2"></div>
         <div className="home-get-in-touch">
-          <h2 className="home-text36 Section-Heading">Get in touch</h2>
-          <div className="home-content-container6">
+          <h2 className="home-text45 Section-Heading">Get in touch</h2>
+          <div className="home-content-container5">
             <div className="home-form-container">
-              <span className="home-heading08 BigCard-Heading">
+              <span className="home-heading7 BigCard-Heading">
                 Send us a message
               </span>
               <input
@@ -522,11 +549,11 @@ const Home = (props) => {
                 placeholder="Your Message"
                 className="home-message textarea"
               ></textarea>
-              <button className="home-cta-btn2 Anchor button">SEND</button>
+              <button className="home-cta-btn1 Anchor button">SEND</button>
             </div>
             <div className="home-locations-container">
               <div className="home-location-1">
-                <span className="home-heading09">London, UK</span>
+                <span className="home-heading8">London, UK</span>
                 <div className="home-adress">
                   <svg viewBox="0 0 1024 1024" className="home-icon54">
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
@@ -655,7 +682,7 @@ const Home = (props) => {
             display: flex;
             align-items: center;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: center;
           }
           .home-cta-btn {
             color: var(--dl-color-gray-white);
@@ -664,7 +691,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-radius24);
             padding-right: var(--dl-space-space-fiveunits);
             padding-bottom: var(--dl-space-space-unit);
-            background-color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-primary-100);
           }
           .home-mobile-menu {
             top: 0px;
@@ -727,55 +754,43 @@ const Home = (props) => {
           .home-hero {
             width: 100%;
             display: flex;
+            min-height: 80vh;
             align-items: center;
-            padding-top: var(--dl-space-space-tenunits);
-            margin-bottom: var(--dl-space-space-fiveunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-tenunits);
-            background-size: cover;
-            justify-content: center;
-            background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
-            background-repeat: no-repeat;
-            background-position: center;
-          }
-          .home-content-container {
-            width: 100%;
-            display: flex;
-            max-width: var(--dl-size-size-maxcontent);
-            margin-top: var(--dl-space-space-fiveunits);
-            align-items: center;
-            padding-top: var(--dl-space-space-tenunits);
-            padding-left: var(--dl-space-space-tripleunit);
-            margin-bottom: var(--dl-space-space-fiveunits);
-            padding-right: var(--dl-space-space-tripleunit);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-tenunits);
+            padding-top: var(--dl-space-space-tripleunit);
+            padding-left: 0px;
+            padding-right: 0px;
+            flex-direction: column;
+            padding-bottom: 0px;
             justify-content: center;
           }
-          .home-hero-text {
-            width: 65%;
+          .home-container2 {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-heading {
-            text-align: center;
-            margin-bottom: var(--dl-space-space-fiveunits);
-          }
           .home-text {
-            color: var(--dl-color-gray-700);
-            text-align: center;
-            margin-bottom: var(--dl-space-space-fiveunits);
+            font-size: 3rem;
           }
-          .home-cta-btn1 {
-            color: var(--dl-color-gray-white);
+          .home-text01 {
+            margin-top: 32px;
             text-align: center;
-            padding-top: var(--dl-space-space-doubleunit);
-            padding-left: var(--dl-space-space-tenunits);
-            border-radius: 30px;
-            padding-right: var(--dl-space-space-tenunits);
-            padding-bottom: var(--dl-space-space-doubleunit);
-            background-color: var(--dl-color-gray-black);
+            padding-left: 48px;
+            margin-bottom: 32px;
+            padding-right: 48px;
+          }
+          .home-button {
+            transition: 0.3s;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: var(--dl-space-space-unit);
+          }
+          .home-button:hover {
+            transform: scale(1.02);
+          }
+          .home-image2 {
+            width: 100%;
+            margin-top: 32px;
           }
           .home-features {
             width: 100%;
@@ -795,7 +810,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text01 {
+          .home-text10 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -838,10 +853,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading01 {
+          .home-heading {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text02 {
+          .home-text11 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -876,10 +891,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading02 {
+          .home-heading1 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text03 {
+          .home-text12 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -914,10 +929,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading03 {
+          .home-heading2 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text04 {
+          .home-text13 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -951,10 +966,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading04 {
+          .home-heading3 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text05 {
+          .home-text14 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -988,10 +1003,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading05 {
+          .home-heading4 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text06 {
+          .home-text15 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1025,10 +1040,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading06 {
+          .home-heading5 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text07 {
+          .home-text16 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1052,11 +1067,11 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text08 {
+          .home-text17 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text09 {
+          .home-text18 {
             color: var(--dl-color-gray-700);
             text-align: center;
           }
@@ -1078,11 +1093,11 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-text10 {
+          .home-text19 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text11 {
+          .home-text20 {
             color: var(--dl-color-gray-700);
             text-align: left;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1097,11 +1112,11 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-text12 {
+          .home-text21 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text13 {
+          .home-text22 {
             color: var(--dl-color-gray-700);
             text-align: left;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1116,11 +1131,11 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-text14 {
+          .home-text23 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text15 {
+          .home-text24 {
             color: var(--dl-color-gray-700);
             text-align: left;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1155,11 +1170,11 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-text16 {
+          .home-text25 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text17 {
+          .home-text26 {
             color: var(--dl-color-gray-700);
             text-align: center;
           }
@@ -1326,11 +1341,11 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-text18 {
+          .home-text27 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text19 {
+          .home-text28 {
             color: var(--dl-color-gray-700);
             text-align: center;
           }
@@ -1394,7 +1409,7 @@ const Home = (props) => {
             width: 48px;
             height: 48px;
           }
-          .home-content-container1 {
+          .home-content-container {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1404,14 +1419,14 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: flex-start;
           }
-          .home-heading07 {
+          .home-heading6 {
             text-align: left;
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text20 {
+          .home-text29 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text21 {
+          .home-text30 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
           .home-info-container {
@@ -1477,7 +1492,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-image2 {
+          .home-image3 {
             width: 100%;
             height: 160px;
             object-fit: cover;
@@ -1485,7 +1500,7 @@ const Home = (props) => {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
-          .home-content-container2 {
+          .home-content-container1 {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-tripleunit);
@@ -1495,7 +1510,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-text24 {
+          .home-text33 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -1552,7 +1567,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-image3 {
+          .home-image4 {
             width: 100%;
             height: 160px;
             object-fit: cover;
@@ -1560,7 +1575,7 @@ const Home = (props) => {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
-          .home-content-container3 {
+          .home-content-container2 {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-tripleunit);
@@ -1570,7 +1585,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-text27 {
+          .home-text36 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -1626,7 +1641,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-image4 {
+          .home-image5 {
             width: 100%;
             height: 160px;
             object-fit: cover;
@@ -1634,7 +1649,7 @@ const Home = (props) => {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
-          .home-content-container4 {
+          .home-content-container3 {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-tripleunit);
@@ -1644,7 +1659,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-text30 {
+          .home-text39 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -1700,7 +1715,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-image5 {
+          .home-image6 {
             width: 100%;
             height: 160px;
             object-fit: cover;
@@ -1708,7 +1723,7 @@ const Home = (props) => {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
-          .home-content-container5 {
+          .home-content-container4 {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-tripleunit);
@@ -1718,7 +1733,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-text33 {
+          .home-text42 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -1785,11 +1800,11 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: flex-start;
           }
-          .home-text36 {
+          .home-text45 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-content-container6 {
+          .home-content-container5 {
             width: 100%;
             display: flex;
             align-self: stretch;
@@ -1812,7 +1827,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fiveunits);
             background-color: var(--dl-color-gray-900);
           }
-          .home-heading08 {
+          .home-heading7 {
             margin-bottom: var(--dl-space-space-fourunits);
           }
           .home-name5 {
@@ -1846,7 +1861,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
           }
-          .home-cta-btn2 {
+          .home-cta-btn1 {
             color: var(--dl-color-gray-white);
             text-align: center;
             padding-top: var(--dl-space-space-unit);
@@ -1868,7 +1883,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-heading09 {
+          .home-heading8 {
             font-size: 24px;
             font-style: normal;
             font-family: Roboto;
@@ -1967,12 +1982,20 @@ const Home = (props) => {
           }
           @media (max-width: 991px) {
             .home-hero {
-              flex-direction: column-reverse;
+              flex-direction: column;
             }
-            .home-content-container {
-              flex-direction: column-reverse;
+            .home-container2 {
+              align-items: center;
+              margin-right: 0px;
+              margin-bottom: 32px;
             }
-            .home-hero-text {
+            .home-text {
+              text-align: center;
+            }
+            .home-text01 {
+              text-align: center;
+            }
+            .home-image2 {
               width: 80%;
             }
             .home-cards-container2 {
@@ -2010,6 +2033,14 @@ const Home = (props) => {
             }
             .home-links-container {
               display: none;
+            }
+            .home-hero {
+              padding-left: 32px;
+              padding-right: 32px;
+            }
+            .home-text01 {
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
             }
             .home-heading-container {
               width: 100%;
@@ -2071,7 +2102,7 @@ const Home = (props) => {
               align-items: center;
               flex-direction: column;
             }
-            .home-content-container6 {
+            .home-content-container5 {
               width: 100%;
               flex-direction: column;
             }
@@ -2092,15 +2123,17 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-doubleunit);
             }
             .home-hero {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-bottom: var(--dl-space-space-fourunits);
+              padding-top: 32px;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: 32px;
             }
-            .home-content-container {
-              padding-top: var(--dl-space-space-fiveunits);
-              padding-bottom: var(--dl-space-space-fiveunits);
+            .home-container2 {
+              margin-bottom: var(--dl-space-space-unit);
             }
-            .home-hero-text {
-              width: 100%;
+            .home-button {
+              margin-top: var(--dl-space-space-unit);
+              margin-left: 0px;
             }
             .home-features {
               padding-top: var(--dl-space-space-fiveunits);
@@ -2141,13 +2174,13 @@ const Home = (props) => {
               padding-top: var(--dl-space-space-fiveunits);
               padding-bottom: var(--dl-space-space-fiveunits);
             }
-            .home-text16 {
+            .home-text25 {
               text-align: center;
             }
             .home-our-story {
               padding-top: var(--dl-space-space-fiveunits);
             }
-            .home-text18 {
+            .home-text27 {
               text-align: center;
             }
             .home-video {
@@ -2165,14 +2198,14 @@ const Home = (props) => {
             .home-card3 {
               width: 100%;
             }
-            .home-content-container6 {
+            .home-content-container5 {
               padding-left: 0px;
             }
             .home-form-container {
               padding: var(--dl-space-space-tripleunit);
               margin-right: 0px;
             }
-            .home-heading08 {
+            .home-heading7 {
               text-align: center;
             }
             .home-location-1 {
