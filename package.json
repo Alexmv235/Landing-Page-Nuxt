@@ -1,20 +1,20 @@
 {
   "name": "landing-page",
   "version": "1.0.0",
-  "description": "A nuxt project generated based on a UIDL document",
-  "author": "teleporthq.io",
-  "private": true,
+  "description": "A next project generated based on a UIDL document",
+  "main": "index.js",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
-  "devDependencies": {
-    "nuxt": "^2.15.8"
-  },
+  "author": "TeleportHQ",
+  "license": "MIT",
   "dependencies": {
-    "vue": "2.7.14",
-    "@lottiefiles/vue-lottie-player": "1.0.4"
-  }
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {}
 }
